@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">All in the Box Remote</string>
+    <string name="tab_text_1">Barcode</string>
+    <string name="tab_text_3">Detail</string>
+    <string name="tab_text_2">Camera</string>
+    <string name="please_scan_barcode">Please scan a barcode to continue.</string>
+    <string name="not_connected">Not Connected</string>
+    <string name="connecting_to">Connecting to:</string>
+    <string name="connected_success">Connected successfully to %1$s!!!</string>
+    <string name="info_barcode">The item %1$s has the barcode <![CDATA[<b>]]>%2$s<![CDATA[</b>]]>. </string>
+    <string name="info_rack">"You will find it here: <![CDATA[<b>]]>%1$s<![CDATA[</b>]]>. "</string>
+    <string name="info_comment">There is also the following comment: <![CDATA[<b>]]>%1$s<![CDATA[</b>]]>.</string>
+    <string name="error100">Oops, it seems like this item is currently opened in another application, please try again later.</string>
+    <string name="help">Help</string>
+    <string name="connect">Connect</string>
+    <string name="mode">Mode</string>
+    <string name="multiselect" translatable="false">Multi Select</string>
+    <string name="rackmanager" translatable="false">Rack Tool</string>
+    <string name="rating">Rating</string>
+    <string name="name">Name</string>
+    <string name="cancel">Cancel</string>
+    <string name="save">Save</string>
+    <string name="ip">IP Address</string>
+    <string name="password">Password</string>
+    <string name="status">State</string>
+    <string name="available">available</string>
+    <string name="unavailable">borrowed</string>
+    <string name="info">Info</string>
+    <string name="close_help">Close Help</string>
+    <string name="port" translatable="false">Port</string>
+    <string name="err_not_connected">It seems like you\'re not yet connected.</string>
+</resources>

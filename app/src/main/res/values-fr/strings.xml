@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">All in the Box Eloigné</string>
+    <string name="tab_text_1">"Code à barre "</string>
+    <string name="tab_text_3">"Détail "</string>
+    <string name="tab_text_2">"Caméra "</string>
+    <string name="please_scan_barcode">Veuillez scanner un code-barres pour continuer.</string>
+    <string name="not_connected">Pas Connecté</string>
+    <string name="connecting_to">Connexion à:</string>
+    <string name="connected_success">Connecté avec succès à %1$s!!!</string>
+    <string name="info_barcode">"L'élément %1$s a le code-barres <![CDATA[<b>]]>%2$s<![CDATA[</b>]]>. "</string>
+    <string name="info_rack">"Vous le trouverez ici: <![CDATA[<b>]]>%1$s<![CDATA[</b>]]>. "</string>
+    <string name="info_comment">Il y a aussi le commentaire suivant: <![CDATA[<b>]]>%1$s<![CDATA[</b>]]>.</string>
+    <string name="error100">Oups, il semble que cet élément soit actuellement ouvert dans une autre application, veuillez réessayer plus tard.</string>
+    <string name="help">Aidez</string>
+    <string name="connect">Relier</string>
+    <string name="mode">Mode</string>
+    <string name="rating">Évaluation</string>
+    <string name="name">Nom</string>
+    <string name="cancel">Annuler</string>
+    <string name="save">Enregistrer</string>
+    <string name="ip">Adresse IP</string>
+    <string name="password">Mot de passe</string>
+    <string name="status">Statut</string>
+    <string name="available">disponible</string>
+    <string name="unavailable">emprunté</string>
+    <string name="info">Infos</string>
+    <string name="close_help">Fermer l\'aide</string>
+    <string name="err_not_connected">" Il semble que tu n'es pas encore connecté."</string>
+</resources>

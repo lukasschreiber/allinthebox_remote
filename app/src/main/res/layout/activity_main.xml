@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:minHeight="?actionBarSize"
+            android:padding="@dimen/appbar_padding"
+            android:text="@string/app_name"
+            android:textAppearance="@style/TextAppearance.Widget.AppCompat.Toolbar.Title" />
+
+        <android.support.design.widget.TabLayout
+            android:id="@+id/tabs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?attr/colorPrimary" />
+
+    </android.support.design.widget.AppBarLayout>
+
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/view_pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+
+    <com.getbase.floatingactionbutton.FloatingActionsMenu
+        android:id="@+id/fab_menu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_gravity="bottom|right"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginBottom="16dp"
+        fab:fab_addButtonColorNormal="@color/white"
+        fab:fab_addButtonColorPressed="@color/white_pressed"
+        fab:fab_addButtonPlusIconColor="@color/half_black"
+        fab:fab_addButtonSize="normal"
+        fab:fab_expandDirection="up"
+        fab:fab_labelStyle="@style/menu_labels_style">
+
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fab_help"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            fab:fab_icon="@drawable/help"
+            app:fabSize="normal"
+            app:fab_size="normal"
+            fab:fab_colorNormal="@color/white"
+            fab:fab_colorPressed="@color/white_pressed"
+            fab:fab_title="@string/help" />
+
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fab_connect"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            fab:fab_icon="@drawable/connect"
+            fab:fab_colorNormal="@color/white"
+            fab:fab_colorPressed="@color/white_pressed"
+            fab:fab_title="@string/connect" />
+
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fab_scanner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            fab:fab_icon="@drawable/smartphone"
+            fab:fab_colorNormal="@color/white"
+            fab:fab_colorPressed="@color/white_pressed"
+            fab:fab_title="@string/mode" />
+
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fab_multi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            fab:fab_icon="@drawable/multi"
+            fab:fab_colorNormal="@color/white"
+            fab:fab_colorPressed="@color/white_pressed"
+            fab:fab_title="@string/multiselect" />
+
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fab_rack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            fab:fab_icon="@drawable/logo"
+            fab:fab_colorNormal="@color/white"
+            fab:fab_colorPressed="@color/white_pressed"
+            fab:fab_title="@string/rackmanager" />
+
+    </com.getbase.floatingactionbutton.FloatingActionsMenu>
+
+</android.support.design.widget.CoordinatorLayout>

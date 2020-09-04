@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">All in the Box Fernsteuerung</string>
+    <string name="tab_text_1">Barcode</string>
+    <string name="tab_text_3">Detail</string>
+    <string name="tab_text_2">Kamera</string>
+    <string name="please_scan_barcode">Bitte scanne einen Barcode um fortzufahren.</string>
+    <string name="not_connected">Nicht Verbunden</string>
+    <string name="connecting_to">Verbindung aufbauen mit:</string>
+    <string name="connected_success">Erfolgreich mit %1$s verbunden!!!</string>
+    <string name="info_barcode">"Das Item %1$s hat den Barcode <![CDATA[<b>]]>%2$s<![CDATA[</b>]]>. "</string>
+    <string name="info_rack">"Du findest es hier: <![CDATA[<b>]]>%1$s<![CDATA[</b>]]>. "</string>
+    <string name="info_comment">Außerdem gibt es den folgenden Kommentar: <![CDATA[<b>]]>%1$s<![CDATA[</b>]]>.</string>
+    <string name="error100">Ups, es scheint, als hätte jemand das Item bereits in einer anderen Anwendung geöffnet. Versuche es bitte später erneut.</string>
+    <string name="help">Hilfe</string>
+    <string name="connect">Verbinden</string>
+    <string name="mode">Modus</string>
+    <string name="rating">Bewertung</string>
+    <string name="name">Name</string>
+    <string name="cancel">Abbrechen</string>
+    <string name="save">Speichern</string>
+    <string name="ip">IP Adresse</string>
+    <string name="password">Passwort</string>
+    <string name="status">Status</string>
+    <string name="available">verfügbar</string>
+    <string name="unavailable">entliehen</string>
+    <string name="info">Infos</string><!--Deutsch: Infos-->
+    <string name="close_help">Hilfe Schließen</string>
+    <string name="err_not_connected">" Es scheint, als wärst du noch nicht verbunden."</string>
+</resources>

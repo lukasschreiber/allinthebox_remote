@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">All in the Box Control Remoto</string>
+    <string name="tab_text_1">Código de barras</string>
+    <string name="tab_text_3">Detalle</string>
+    <string name="tab_text_2">Cámara</string>
+    <string name="please_scan_barcode">Escanee un código de barras para continuar.</string>
+    <string name="not_connected">No Conectado</string>
+    <string name="connecting_to">Conectado a:</string>
+    <string name="connected_success">Conectado exitosamente a %1$s!!!</string>
+    <string name="info_barcode">"El artículo %1$s tiene el código de barras <![CDATA[<b>]]>%2$s<![CDATA[</b>]]>. "</string>
+    <string name="info_rack">"Lo encontrarás aqui: <![CDATA[<b>]]>%1$s<![CDATA[</b>]]>. "</string>
+    <string name="info_comment">También está el siguiente comentario: <![CDATA[<b>]]>%1$s<![CDATA[</b>]]>.</string>
+    <string name="error100">Vaya, parece que este elemento está abierto actualmente en otra aplicación, inténtalo de nuevo más tarde.</string>
+    <string name="help">Ayuda</string>
+    <string name="connect">Conectar</string>
+    <string name="mode">Modo</string>
+    <string name="rating">Evaluación</string>
+    <string name="name">Nombre</string>
+    <string name="cancel">Cancelar</string>
+    <string name="save">Salvar</string>
+    <string name="ip">Dirección IP</string>
+    <string name="password">Contraseña</string>
+    <string name="status">Estado</string>
+    <string name="available">disponible</string>
+    <string name="unavailable">prestado</string>
+    <string name="info">Informacion</string>
+    <string name="close_help">Cerrar Ayuda</string>
+    <string name="err_not_connected">Parece que no estas conectado.</string>
+</resources>
